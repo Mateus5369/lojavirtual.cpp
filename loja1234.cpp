@@ -86,7 +86,7 @@ int main() {
     livro.exibirDetalhes();
     cout << endl;
 
-    cout << "--- TELEMOVEL ---" << endl;
+    cout << "--- SMARTPHONE ---" << endl;
     smartphone.exibirDetalhes();
     cout << endl;
 
@@ -107,3 +107,4 @@ int main() {
 
     return 0;
 }
+
