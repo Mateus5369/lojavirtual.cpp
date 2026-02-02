@@ -96,15 +96,16 @@ int main() {
 
     // Testar preço negativo
     cout << "===== TESTE PRECO NEGATIVO =====" << endl;
-    livro.setPreco(-10.50);
+    livro.setPreco(-46.50);
     cout << "Novo preco do livro:" << endl;
     livro.exibirDetalhes();
     cout << endl;
 
-    smartphone.setPreco(-500.00);
+    smartphone.setPreco(-1000.00);
     cout << "Novo preco do smartphone:" << endl;
     smartphone.exibirDetalhes();
 
     return 0;
 }
+
 
